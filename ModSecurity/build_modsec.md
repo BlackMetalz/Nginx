@@ -13,3 +13,18 @@ $ make
 $ make install
 ```
 
+Done build mod security lib
+
+Get nginx source :
+
+```
+wget http://nginx.org/download/nginx-1.16.1.tar.gz
+tar -xzvf nginx-1.16.1.tar.gz
+```
+
+
+Install dependencies:
+
+```
+
+```
