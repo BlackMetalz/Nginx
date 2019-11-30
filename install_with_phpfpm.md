@@ -117,6 +117,11 @@ server {
 
 
 2. Php 7.3 on Ubuntu 18.04:
+```
+3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
+   or ppa:ondrej/nginx
+```
+
 ```bash
 add-apt-repository ppa:ondrej/php
 apt install php7.3-fpm php7.3-gd  php7.3-exif php7.3-zip php7.3-mysqli php7.3-mbstring
