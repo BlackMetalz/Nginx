@@ -124,9 +124,9 @@ server {
 add-apt-repository ppa:ondrej/nginx-mainline
 ```
 
-```bash
+```bash Still recommend this repo
 add-apt-repository ppa:ondrej/php
-apt install php7.3-fpm php7.3-gd  php7.3-exif php7.3-zip php7.3-mysqli php7.3-mbstring
+apt install php7.3-fpm php7.3-gd  php7.3-exif php7.3-zip php7.3-mysqli php7.3-mbstring php7.3-curl php7.3-soap
 ```
 
 3.Certbot ubuntu18
