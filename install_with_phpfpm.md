@@ -88,7 +88,7 @@ http {
 1.3 Basic virtual hosts config
 ```
 server {
-    listen 443 ssl http2;
+    listen 80;
 
     server_name site_dev;
     root /data/www/site_dev/current/public;
