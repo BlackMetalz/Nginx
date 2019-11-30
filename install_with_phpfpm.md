@@ -120,10 +120,30 @@ server {
 ```
 3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
    or ppa:ondrej/nginx
+   
+add-apt-repository ppa:ondrej/nginx-mainline
 ```
 
 ```bash
 add-apt-repository ppa:ondrej/php
 apt install php7.3-fpm php7.3-gd  php7.3-exif php7.3-zip php7.3-mysqli php7.3-mbstring
 ```
+
+3.Certbot ubuntu18
+```
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot python-certbot-nginx
+```
+
+Usage 
+```
+certbot --nginx
+# Test
+certbot renew --dry-run
+```
+
 
